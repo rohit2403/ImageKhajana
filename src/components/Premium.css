@@ -1,0 +1,29 @@
+.premiumMain{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.someText{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.someText h1{
+    font-size: 3.5rem;
+    margin-bottom: 50px;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 10px black;
+}
+
+.someText h3 {
+    margin-bottom: 50px;
+    color: rgb(114, 114, 114);
+    text-shadow: 0 0 10px rgb(255, 255, 255);
+}

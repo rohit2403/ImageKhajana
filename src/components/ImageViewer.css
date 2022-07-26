@@ -1,0 +1,46 @@
+
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.imageViewerMain *{
+    border-radius: 5px;
+}
+
+.image-gallery-content .image-gallery-slide .image-gallery-image {
+    max-height: calc(100vh - 110px);
+}
+
+.image-gallery-thumbnails-container{
+    height: 80px;
+    overflow-x: scroll;
+}
+
+.image-gallery-thumbnails-container button {
+    height: 60px;
+    width: 90px;
+}
+
+
+.image-gallery-thumbnail .image-gallery-thumbnail-image{
+    height: 50px;
+    width: 70px;
+}
+
+.image-gallery-thumbnails-container::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+
+/* Track */
+.image-gallery-thumbnails-container::-webkit-scrollbar-track {
+    background: white;
+}
+
+/* Handle */
+.image-gallery-thumbnails-container::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0);
+}
+
+/* Handle on hover */
+.image-gallery-thumbnails-container::-webkit-scrollbar-thumb:hover {
+    background: rgb(120, 120, 120);
+}

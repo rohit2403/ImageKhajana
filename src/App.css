@@ -1,0 +1,7 @@
+body {
+    background-image: url('../src/components/subtle-prism.svg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}

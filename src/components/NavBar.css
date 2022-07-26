@@ -1,0 +1,56 @@
+nav{
+    
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 5px black;
+}
+
+.navIcon{
+    width: 25%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    background-image: url('./scattered-forcefields.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navIcon h2{
+    margin-left: 10px;
+    font-family: cursive;
+    color: rgb(255, 108, 46);
+}
+
+.userDetail {
+    width: 75%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url('./scattered-forcefields.svg');
+    background-position: center;
+}
+
+.userDetail a,.userDetail p{
+    text-decoration: none;
+    margin-right: 8%;
+    font-size: 1.1rem;
+    color: rgb(0, 136, 111);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+.userDetail a svg{
+    color: rgb(255, 117, 19);
+}
+
+.userDetail img{
+    width: 60px;
+    height: 60px;
+    margin-right: 8%;
+    border-radius: 50%;
+}
+

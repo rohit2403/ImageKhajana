@@ -1,0 +1,135 @@
+.uploadMain{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.folderselection{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.folderselection .selectfolder{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.folderselection .selectfolder select{
+    width: 250px;
+    height: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.3rem;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(223, 239, 255);
+    padding-left: 10px;
+}
+
+.folderselection .selectfolder select option{
+    background-color: rgb(85, 85, 85);
+    color: white;
+}
+
+.folderselection .selectfolder select:focus{
+    outline: 2px solid rgb(128, 255, 240);
+}
+
+.folderselection .createfolder {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.folderselection .createfolder input {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    border: none;
+    background-color: rgb(223, 239, 255);
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.folderselection .createfolder input:focus{
+    outline: 2px solid rgb(128, 255, 240);
+}
+
+.uploadsection{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector{
+    width: 300px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.selector input{
+    border: 2px solid rgb(26, 3, 3);
+    padding: 10px;
+}
+
+input::file-selector-button {
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 5px;
+    background-color: rgb(69, 168, 255);
+    border: none;
+    border-radius: 5px;
+}
+
+.uploadButton{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uploadButton button{
+    width: 120px;
+    height: 25%;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(69, 168, 255);
+    color: white;
+}
+
+.uploadButton button:hover{
+    background-color: rgb(69, 168, 255);
+}
+
+.uploadButton button svg{
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 700px) {
+    .folderselection{
+        flex-direction: column;
+    }
+}
