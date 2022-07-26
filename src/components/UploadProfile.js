@@ -45,7 +45,7 @@ const UploadProfile = () => {
     return (
         <div className='parent'>
             <h1>Upload Profile Picture</h1>
-            <div className="child">
+            <div className="childName">
                 <div className='childImg'>
                     <img src={baseImage} height="200px" />
                 </div>
